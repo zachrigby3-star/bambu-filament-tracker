@@ -1,5 +1,7 @@
+import re
 import requests
 import duckdb
+import pandas as pd
 from datetime import datetime, timedelta, timezone
 
 BASE_URL = "https://db-public.bbltracker.com"
@@ -32,6 +34,25 @@ def find_latest_available_parquet():
     raise RuntimeError("Could not find a reachable parquet file.")
 
 
+def parse_variant_name(name: str):
+    if not isinstance(name, str):
+        return "", "", ""
+
+    product_type = ""
+    if "[Filament with spool, 1kg]" in name:
+        product_type = "spool"
+    elif "[Refill, 1kg]" in name:
+        product_type = "refill"
+
+    code_match = re.search(r"\((\d+)\)", name)
+    product_code = code_match.group(1) if code_match else ""
+
+    color_name = re.sub(r"^PLA Basic\s+", "", name)
+    color_name = re.sub(r"\s*\(\d+\)\s*\[.*?\]\s*$", "", color_name).strip()
+
+    return color_name, product_type, product_code
+
+
 def main():
     parquet_url, parquet_name = find_latest_available_parquet()
     print(f"Using parquet file: {parquet_name}")
@@ -57,6 +78,7 @@ def main():
     )
     SELECT
         lower(region) AS region,
+        product_name,
         variant_name,
         stock,
         eta,
@@ -78,6 +100,28 @@ def main():
 
     if df.empty:
         raise RuntimeError("Query returned no rows.")
+
+    parsed = df["variant_name"].apply(parse_variant_name)
+    df["color_name"] = parsed.apply(lambda x: x[0])
+    df["product_type"] = parsed.apply(lambda x: x[1])
+    df["product_code"] = parsed.apply(lambda x: x[2])
+
+    df = df[
+        [
+            "region",
+            "product_name",
+            "color_name",
+            "product_type",
+            "product_code",
+            "variant_name",
+            "stock",
+            "eta",
+            "timestamp",
+            "status",
+            "max_quantity",
+            "is_flash_sale",
+        ]
+    ]
 
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"Wrote {len(df)} rows to {OUTPUT_FILE}")
