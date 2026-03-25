@@ -1,0 +1,36 @@
+name: Update Bambu Stock CSV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+jobs:
+  update-stock:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install duckdb requests pandas
+
+      - name: Run stock pull
+        run: python pull_bambu_stock.py
+
+      - name: Commit updated CSV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bambu_pla_basic_us.csv
+          git diff --staged --quiet || git commit -m "Update Bambu stock CSV"
+          git push
