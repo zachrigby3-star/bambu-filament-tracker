@@ -1,44 +1,44 @@
 region,product_name,color_name,product_type,product_code,variant_name,stock,eta,timestamp,status,max_quantity,is_flash_sale
-us,PLA Basic,Bambu Green,spool,10501,"Bambu Green (10501) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Bambu Green,refill,10501,"Bambu Green (10501) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Beige,refill,10201,"Beige (10201) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Black,spool,10101,"Black (10101) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Black,refill,10101,"Black (10101) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Blue,spool,10601,"Blue (10601) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Blue,refill,10601,"Blue (10601) [Refill, 1kg]",113,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Blue Grey,refill,10602,"Blue Grey (10602) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Bright Green,refill,10503,"Bright Green (10503) [Refill, 1kg]",287,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Bronze,refill,10801,"Bronze (10801) [Refill, 1kg]",343,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Brown,refill,10800,"Brown (10800) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Cobalt Blue,refill,10604,"Cobalt Blue (10604) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Cocoa Brown,spool,10802,"Cocoa Brown (10802) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Cocoa Brown,refill,10802,"Cocoa Brown (10802) [Refill, 1kg]",16,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Cyan,spool,10603,"Cyan (10603) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Cyan,refill,10603,"Cyan (10603) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Dark Gray,refill,10105,"Dark Gray (10105) [Refill, 1kg]",0,1776700799000,2026-04-04 18:38:18.063,Out of Stock,400,False
-us,PLA Basic,Gold,refill,10401,"Gold (10401) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Gray,spool,10103,"Gray (10103) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Gray,refill,10103,"Gray (10103) [Refill, 1kg]",0,,2026-04-04 18:38:18.063,Out of Stock,400,False
-us,PLA Basic,Hot Pink,spool,10204,"Hot Pink (10204) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Hot Pink,refill,10204,"Hot Pink (10204) [Refill, 1kg]",0,,2026-04-04 18:38:18.063,Out of Stock,400,False
-us,PLA Basic,Indigo Purple,spool,10701,"Indigo Purple (10701) [Filament with spool, 1kg]",118,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Indigo Purple,refill,10701,"Indigo Purple (10701) [Refill, 1kg]",52,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Jade White,spool,10100,"Jade White (10100) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Jade White,refill,10100,"Jade White (10100) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Light Gray,refill,10104,"Light Gray (10104) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Magenta,refill,10202,"Magenta (10202) [Refill, 1kg]",323,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Maroon Red,refill,10205,"Maroon Red (10205) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Mistletoe Green,spool,10502,"Mistletoe Green (10502) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Mistletoe Green,refill,10502,"Mistletoe Green (10502) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Orange,refill,10300,"Orange (10300) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Pink,refill,10203,"Pink (10203) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Pumpkin Orange,spool,10301,"Pumpkin Orange (10301) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Pumpkin Orange,refill,10301,"Pumpkin Orange (10301) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Purple,refill,10700,"Purple (10700) [Refill, 1kg]",207,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Red,spool,10200,"Red (10200) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Red,refill,10200,"Red (10200) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Silver,refill,10102,"Silver (10102) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Sunflower Yellow,spool,10402,"Sunflower Yellow (10402) [Filament with spool, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Sunflower Yellow,refill,10402,"Sunflower Yellow (10402) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Turquoise,refill,10605,"Turquoise (10605) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
-us,PLA Basic,Yellow,refill,10400,"Yellow (10400) [Refill, 1kg]",400,,2026-04-04 18:38:18.063,In Stock,400,False
+us,PLA Basic,Bambu Green,spool,10501,"Bambu Green (10501) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Bambu Green,refill,10501,"Bambu Green (10501) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Beige,refill,10201,"Beige (10201) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Black,spool,10101,"Black (10101) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Black,refill,10101,"Black (10101) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Blue,spool,10601,"Blue (10601) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Blue,refill,10601,"Blue (10601) [Refill, 1kg]",282,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Blue Grey,refill,10602,"Blue Grey (10602) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Bright Green,refill,10503,"Bright Green (10503) [Refill, 1kg]",250,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Bronze,refill,10801,"Bronze (10801) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Brown,refill,10800,"Brown (10800) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Cobalt Blue,refill,10604,"Cobalt Blue (10604) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Cocoa Brown,spool,10802,"Cocoa Brown (10802) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Cocoa Brown,refill,10802,"Cocoa Brown (10802) [Refill, 1kg]",171,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Cyan,spool,10603,"Cyan (10603) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Cyan,refill,10603,"Cyan (10603) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Dark Gray,refill,10105,"Dark Gray (10105) [Refill, 1kg]",0,1776700799000,2026-04-04 20:38:46.578,Out of Stock,400,False
+us,PLA Basic,Gold,refill,10401,"Gold (10401) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Gray,spool,10103,"Gray (10103) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Gray,refill,10103,"Gray (10103) [Refill, 1kg]",0,,2026-04-04 20:38:46.578,Out of Stock,400,False
+us,PLA Basic,Hot Pink,spool,10204,"Hot Pink (10204) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Hot Pink,refill,10204,"Hot Pink (10204) [Refill, 1kg]",94,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Indigo Purple,spool,10701,"Indigo Purple (10701) [Filament with spool, 1kg]",92,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Indigo Purple,refill,10701,"Indigo Purple (10701) [Refill, 1kg]",24,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Jade White,spool,10100,"Jade White (10100) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Jade White,refill,10100,"Jade White (10100) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Light Gray,refill,10104,"Light Gray (10104) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Magenta,refill,10202,"Magenta (10202) [Refill, 1kg]",294,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Maroon Red,refill,10205,"Maroon Red (10205) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Mistletoe Green,spool,10502,"Mistletoe Green (10502) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Mistletoe Green,refill,10502,"Mistletoe Green (10502) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Orange,refill,10300,"Orange (10300) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Pink,refill,10203,"Pink (10203) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Pumpkin Orange,spool,10301,"Pumpkin Orange (10301) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Pumpkin Orange,refill,10301,"Pumpkin Orange (10301) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Purple,refill,10700,"Purple (10700) [Refill, 1kg]",173,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Red,spool,10200,"Red (10200) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Red,refill,10200,"Red (10200) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Silver,refill,10102,"Silver (10102) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Sunflower Yellow,spool,10402,"Sunflower Yellow (10402) [Filament with spool, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Sunflower Yellow,refill,10402,"Sunflower Yellow (10402) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Turquoise,refill,10605,"Turquoise (10605) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
+us,PLA Basic,Yellow,refill,10400,"Yellow (10400) [Refill, 1kg]",400,,2026-04-04 20:38:46.578,In Stock,400,False
